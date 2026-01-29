@@ -1,0 +1,22 @@
+{
+  "name": "vitaltrack",
+  "version": "1.0.0",
+  "description": "VitalTrack - Health Tracking Application",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "install": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "cd backend && npm start",
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "keywords": [
+    "health",
+    "tracking",
+    "fitness",
+    "wellness",
+    "medicine"
+  ],
+  "author": "VitalTrack Team",
+  "license": "MIT"
+}
